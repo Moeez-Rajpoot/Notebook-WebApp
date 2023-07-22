@@ -1,0 +1,149 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(13, 216, 108) , rgb(12, 173, 226));
+}
+
+.Main{
+
+    display: flex;
+    width: 100%;
+    height: 710px;
+    max-height: auto;
+}
+
+.left{
+
+    margin-top: 50px;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    padding: 40px;
+    
+}
+.right{
+    display: none;
+    margin-top: 50px;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    padding: 40px;
+    
+}
+
+  
+#txtbox {
+    width: 100%; /* Make the textarea responsive across the width */
+    height: 300px; /* Set an initial height for the textarea */
+    resize: vertical; /* Allow the textarea to be resized vertically by the user */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+
+
+
+  h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: rgb(8, 8, 8);
+    border-bottom: 2px solid rgb(13, 134, 227);
+  }
+
+  #btn1{
+
+    display: flex;
+    padding: 10px;
+    outline: none;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 10px;
+
+  }
+
+  #btn1 img{
+
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    float: left;
+  }
+  #btn1:hover{
+
+    background: linear-gradient(135deg, rgb(13, 216, 202) , rgb(12, 62, 226));
+    outline : 2px solid rgb(7, 225, 7);
+  }
+
+
+  
+  #btn2{
+    display: inline-flex;
+    padding: 10px;
+    outline: none;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+
+  }
+
+  #btn2 img{
+
+    margin-left: 10px;
+    height: 20px;
+    width: auto;
+  }
+  #btn2:hover{
+
+    background: linear-gradient(135deg, rgb(13, 216, 202) , rgb(12, 62, 226));
+    outline : 2px solid rgb(7, 225, 7);
+  }
+
+  
+  #btn3{
+   
+    padding: 10px;
+    display: inline-flex;
+    height: 50px;
+    outline: none;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 10px;
+
+  }
+
+  #btn3 img{
+
+    margin-left: 10px;
+    height: 20px;
+    width: auto;
+  }
+  #btn3:hover{
+
+    background: linear-gradient(135deg, rgb(13, 216, 202) , rgb(12, 62, 226));
+    outline : 2px solid rgb(7, 225, 7);
+  }
+
+  .rightin{
+    display: none;
+    margin-top: 10px;
+    background-color:white;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+  }
