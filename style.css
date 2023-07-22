@@ -46,9 +46,19 @@ body{
 
   h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    display: flex;
+    
+    align-items: center;
     color: rgb(8, 8, 8);
     border-bottom: 2px solid rgb(13, 134, 227);
+  }
+  h1 img{
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+    margin-bottom: 10px;
+
   }
 
   #btn1{
@@ -97,7 +107,7 @@ body{
 
   }
 
-  #btn2 img{
+  #img2{
 
     margin-left: 10px;
     height: 20px;
@@ -123,10 +133,11 @@ body{
     border-radius: 10px;
     width: auto;
     margin-top: 10px;
+    margin-left: 10px;
 
   }
 
-  #btn3 img{
+  #img3{
 
     margin-left: 10px;
     height: 20px;
@@ -139,11 +150,26 @@ body{
   }
 
   .rightin{
-    display: none;
-    margin-top: 10px;
-    background-color:white;
+
+    background-color:rgb(255, 255, 255);
     padding: 10px;
     height: auto;
     width: auto;
     border-radius: 10px;
+  }
+  .singlebox{
+    
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    border: 2px solid rgb(4, 86, 100);
+    padding: 10px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+  }
+
+  .singlebox:hover{
+
+    border-bottom: 5px solid rgb(13, 134, 227);
+
   }
